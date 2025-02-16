@@ -7,6 +7,15 @@
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+.LeftSide {
+    display: flex;
+}
+
+.title {
+    color: white;
+    font-size: 33px;
+}
+
 .logo {
     width: 100px;
     height: 100px;
@@ -28,5 +37,36 @@
 }
 
 .nav a:hover {
+    background-color: #e0e0e0;
+}
+
+/* Auth container inside header */
+.auth-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.auth-container img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.auth-button {
+    background-color: #252B32;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.auth-button:hover {
     background-color: #e0e0e0;
 }
