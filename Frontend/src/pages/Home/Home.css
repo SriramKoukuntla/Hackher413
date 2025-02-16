@@ -1,0 +1,44 @@
+
+.home-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.home-title {
+    font-size: 6rem; /* SUPER BIG FONT */
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.home-description {
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+    font-size: 1.5rem; /* Start bigger */
+    line-height: 1.6;
+}
+
+.home-description span {
+    display: block; /* Each line as a new block */
+}
+
+.home-description span:nth-child(1) { font-size: 1.3rem; }
+.home-description span:nth-child(2) { font-size: 1.2rem; }
+.home-description span:nth-child(3) { font-size: 1.1rem; }
+.home-description span:nth-child(4) { font-size: 1.0rem; }
+.home-description span:nth-child(5) { font-size: 1rem; }
+.home-description span:nth-child(6) { font-size: 0.9rem; }
+.home-description span:nth-child(7) { font-size: 0.8rem; }
+.home-description span:nth-child(8) { font-size: 0.7rem; }
+.home-description span:nth-child(9) { font-size: 0.7rem; }
+.home-description span:nth-child(10) { font-size: 0.7rem; }
+.home-description span:nth-child(11) { font-size: 0.7rem; }
+.home-description span:nth-child(12) { font-size: 0.7rem; }
+.home-description span:nth-child(13) { font-size: 0.7rem; }
+
+.home-description span:nth-child(14) { font-size: 0.6rem; }
+.home-description span:nth-child(15) { font-size: 0.6rem; }
+.home-description span:nth-child(16) { font-size: 0.6rem; }
+.home-description span:nth-child(17) { font-size: 0.6rem; }
+.home-description span:nth-child(18) { font-size: 0.6rem; }

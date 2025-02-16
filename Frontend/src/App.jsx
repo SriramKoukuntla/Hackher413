@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import { About } from "./pages/About";
-import { Home } from "./pages/Home";
-import { Login } from "./pages/Login";
-import { Signup } from "./pages/Signup";
+import { Home } from "./pages/Home/Home";
+import { Login } from "./pages/Login/Login";
+import { Signup } from "./pages/Signup/Signup";
 
 
 
